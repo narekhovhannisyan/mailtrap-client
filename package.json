@@ -1,7 +1,7 @@
 {
   "name": "mailtrap-sdk",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Narek Hovhannisyan",
   "bugs": {
     "url": "https://github.com/narekhovhannisyan/mailtrap-client/issues"
