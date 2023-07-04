@@ -1,5 +1,5 @@
 {
-  "name": "mailtrap-client",
+  "name": "mailtrap-sdk",
   "description": "",
   "version": "1.0.0",
   "author": "Narek Hovhannisyan",
@@ -27,7 +27,8 @@
   "homepage": "https://github.com/narekhovhannisyan/mailtrap-client#readme",
   "keywords": [],
   "license": "ISC",
-  "main": "lib/index.ts",
+  "main": "dist/src/index.js",
+  "prepublish": "tsc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/narekhovhannisyan/mailtrap-client.git"
@@ -39,5 +40,6 @@
     "start": "node dist/bin/www",
     "start-dev": "npx ts-node src/bin/www",
     "test": "jest --detectOpenHandles --env=node ./test"
-  }
+  },
+  "types": "dist/src/index.d.ts"
 }

@@ -4,12 +4,13 @@
     "checkJs": true,
     "noImplicitAny": true,
     "outDir": "dist",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "declaration": true
   },
   "include": [
     "src",
-    "test"
-, "test/mocks"  ],
+    "test"  
+  ],
   "exclude": [
     "node_modules",
     "jest.config.ts"
