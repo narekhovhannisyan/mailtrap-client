@@ -37,7 +37,7 @@ export class MailtrapSDK {
     const endpoint = ENDPOINTS.SEND(this.testInboxId)
 
     try {
-      return await this.MailtrapInstance.post<AxiosResponse>(endpoint, data)
+      return this.MailtrapInstance.post<AxiosResponse>(endpoint, data)
     } catch (error: unknown) {
       console.error(error)
 
